@@ -1,0 +1,109 @@
+.moon , .sun, .moon1, .moon2, .moon3, .moon4, .moon5 {
+   width: 20px;
+   height: 20px;
+   margin-right: 5px;
+   border-radius: 50%;
+   position: absolute;
+}
+
+
+.sun {
+    background: #e7e70d;
+    animation-name: ubah;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.moon {
+    background: rgb(19, 18, 18);
+    animation-name: gerakan-bulan;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;  
+    animation-direction: alternate;  
+ 
+}
+
+.moon1 {
+    background: rgb(248, 245, 245);
+    animation-name: gerakan-bulan;
+    animation-duration: 5.9s;
+    animation-iteration-count: infinite;  
+    animation-direction: alternate;  
+    
+}
+
+.moon3 {
+    background: #000;
+    animation-name: gerakan-bulan;
+    animation-duration: 5.7s;
+    animation-iteration-count: infinite;  
+    animation-direction: alternate;  
+    
+}
+.moon4 {
+    background: rgb(230, 222, 222);
+    animation-name: gerakan-bulan;
+    animation-duration: 5.6s;
+    animation-iteration-count: infinite;  
+    animation-direction: alternate;  
+    
+}
+.moon5 {
+    background: rgb(228, 12, 12);
+    animation-name: gerakan-bulan;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;  
+    animation-direction: alternate;  
+    
+}
+
+
+
+animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    animation-name: ubah-background;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.animasi {
+    position: relative;
+  
+    height: 40px;
+   
+}
+
+@keyframes gerakan-bulan {
+    0% {left : 250px;}
+
+    100% {
+        left : -250px;
+    }
+   
+}
+
+@keyframes ubah-background {
+    0% {
+        background: #fff;
+    }
+
+    50% {
+        background: #5f5d60;
+    }
+
+    100% {
+        background: #292828;
+    }
+}
+
+@keyframes ubah {
+    0% { background-color: black;}
+    25% { background-color: #5f5d60;}
+    50% { background-color: aqua;}
+    75% { background-color: bisque;}
+    100% {background-color: chartreuse;}
+}

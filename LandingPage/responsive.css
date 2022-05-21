@@ -1,0 +1,123 @@
+/*---------- Untuk tablet ----------*/
+@media all and (max-width: 1000px) {
+    .header-menu ul {
+        margin:21px 20px;
+        font-size: 15px;
+    }
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .game-modes {
+        height: 650px;
+    }
+
+    .mode-cards {
+        width: 50%;
+    }
+   
+    
+    .mode-cards img {
+           width: 25%px;
+           margin: 15px;
+       }
+    
+    .mode-cards p {
+        font-size: 15px;
+        
+       margin: auto;
+        width: 200px;
+    }
+     
+    .features {
+        height: 750px;
+    }
+
+    .features-card {
+        width: 50%;  
+    }
+
+    .features-card img {
+        width: 50%;
+    }
+    
+    .features-card p {
+        padding: 20px;
+    }
+
+   
+    .features-card h5 {
+        text-align: center;
+        padding: 5px;
+        margin-left: 37px;
+        width: 200px;
+    }
+
+    .right img {
+        width: 200px;
+    }
+
+   
+
+}
+
+/*---------- Untuk smartphone --------*/
+@media (max-width: 670px) {
+    * {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+        .container {
+            margin: 0 0px;
+        }
+        .header-logo {
+            width: 10px;
+            height: 10px;
+            padding-left: 10px;
+        }
+        .signup-btn {
+            padding-left: 150px;
+        }
+        .hero-section {
+            background-position: center;
+            
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+        .header-menu ul {
+            display: none;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .right {
+            display: none;
+        }
+ 
+
+   
+
+    
+
+        .price-card {
+            height: 500px;
+        }
+
+        animation {
+            width: 100%;
+        }
+        
+      
+    
+
+    }
